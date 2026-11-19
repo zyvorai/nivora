@@ -1,0 +1,12 @@
+Zyvor Nivora
+Copyright 2026 Zyvor AI Labs Private Limited · https://zyvor.dev
+
+This product includes software developed at Zyvor AI Labs (https://zyvor.dev).
+Licensed under the Zyvor Production License v1.0
+(SPDX: LicenseRef-Zyvor-Production-1.0).
+
+Non-production use is free. Production use requires a separate paid
+commercial license from Zyvor AI Labs Private Limited.
+
+Nivora is a Zyvor product. macOS, NetworkExtension, SwiftUI and Virtualization.framework are Apple technologies and trademarks of their respective owners. FluxVM is a Zyvor product and is integrated through its local REST API.
+Dependencies retain their respective licenses; Nivora's collector and web UI have none beyond the Python standard library.
