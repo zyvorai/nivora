@@ -23,9 +23,9 @@ Which app is talking to what, over which interface. Local-first and observe-firs
 | | |
 | --- | --- |
 | **Get it** | [Nivora 0.5.4](https://github.com/zyvorai/nivora/releases/tag/v0.5.4): `Nivora-0.5.4.dmg` and its `.sha256` checksum |
-| **Free 30-day trial key** | **sales@zyvor.dev**. Enter the key under **Nivora > Licence…** |
+| **Trial key** | The app runs without a key. For a free 30-day trial key, email **sales@zyvor.dev**. Enter the key under **Nivora > Licence…** |
 | **Requirements** | macOS 15 or later, Apple silicon |
-| **Notarized** | Signed with our Apple Developer ID and notarized, so Gatekeeper opens it normally |
+| **Notarized** | Signed with our Apple Developer ID. Notarized by Apple; macOS shows its standard first-open confirmation for apps downloaded from the internet |
 
 Install steps: [docs/INSTALL.md](docs/INSTALL.md).
 
@@ -63,7 +63,7 @@ Install steps: [docs/INSTALL.md](docs/INSTALL.md).
 
 ## Trial and licence
 
-- **Free 30-day trial key: sales@zyvor.dev.** Nothing is disabled without a key.
+- The app runs without a key. For a free 30-day trial key, email sales@zyvor.dev. Nothing is disabled without a key.
 - **Licence:** https://zyvor.dev/buy. Earlier paid purchases keep their perpetual licence and need no key.
 - Terms: [docs/COMMERCIAL-LICENSE.md](docs/COMMERCIAL-LICENSE.md). Licensed under the [Zyvor Production License v1.0](LICENSE); free for non-production use, production use needs a paid commercial licence from Zyvor AI Labs Private Limited ([sales@zyvor.dev](mailto:sales@zyvor.dev)). See also [NOTICE](NOTICE).
 

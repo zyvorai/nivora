@@ -10,13 +10,13 @@ download against the `.sha256` shown on the payment page or sent on request. Lic
 1. Download `Nivora-X.Y.Z.dmg` and `Nivora-X.Y.Z.dmg.sha256` from [Releases](https://github.com/zyvorai/nivora/releases).
 2. Verify the download: `shasum -a 256 Nivora-X.Y.Z.dmg` must print the value in the `.sha256` file.
 3. Open the DMG and drag **Nivora** to **Applications**.
-4. Open Nivora. The build is signed with our Apple Developer ID and notarized, so Gatekeeper opens it normally, without a warning.
+4. Open Nivora. The build is signed with our Apple Developer ID. Notarized by Apple; macOS shows its standard first-open confirmation for apps downloaded from the internet.
 
 Closing the window keeps Nivora in the menu bar; **Quit** is in the menu-bar menu. A welcome sheet appears once on first launch.
 
 ## Trial key and licence
 
-**Free 30-day trial key: sales@zyvor.dev.** Paste the key under **Nivora > Licence…**; the sidebar then shows your licence
+The app runs without a key. For a free 30-day trial key, email sales@zyvor.dev. Paste the key under **Nivora > Licence…**; the sidebar then shows your licence
 status. Nothing is disabled without a key. To buy a licence, go to https://zyvor.dev/buy. Earlier paid purchases keep their
 perpetual licence and need no key.
 
