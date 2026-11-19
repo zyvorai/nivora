@@ -7,8 +7,7 @@ Limited. This page describes the one-time paid grant that is that commercial lic
 
 ## Free use
 
-Anyone may use Nivora for Non-Production Use (as defined in `LICENSE`) without paying: build it from source, use the
-unsigned build from GitHub Releases, or run the collector. Use that supports live business operations, employees,
+Anyone may use Nivora for Non-Production Use (as defined in `LICENSE`) without paying: download the app from the GitHub release and use it for non-production purposes. Use that supports live business operations, employees,
 customers or revenue is Production Use and needs the paid grant.
 
 ## The paid grant
@@ -33,10 +32,9 @@ non-exclusive, non-transferable licence to:
 ## Proof and terms
 
 - The invoice or payment receipt is the proof of a paid grant. Earlier paid grants are perpetual and need no key.
-- From 0.5.4 the app can read an optional licence key (`ZYV1.…`, a signed 30-day trial key or a licence key issued by Zyvor) under **Nivora > Licence…**. The key is verified offline with a public key built into the app, stored in the macOS Keychain (with a user-only file fallback), and used only to show the licence status. Enforcement is soft: nothing is disabled without a key or after a key expires, there is no network check and no hardware binding. A free 30-day trial key is available from sales@zyvor.dev; licences are obtained at https://zyvor.dev/buy.
+- From 0.5.4 the app can read an optional licence key under **Nivora > Licence…**, for example the free 30-day trial key from sales@zyvor.dev; licences are obtained at https://zyvor.dev/buy. Nivora keeps working in every state: a missing, trial or expired key never disables a feature, and nothing is sent to us.
 - Provided as is, no warranty, under the same disclaimers as the Zyvor Production License v1.0. Payments are non-refundable except as
   required by law.
-- Prices on this page are drafts pending owner approval.
 - Questions, receipts, new download links, and larger or multi-entity licences: sales@zyvor.dev.
 - Governing law and venue: *[Licensor and counsel to fill in]*. Tax and GST treatment: *[Licensor and counsel to fill in]*.
 
