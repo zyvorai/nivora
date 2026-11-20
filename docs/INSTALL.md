@@ -2,8 +2,8 @@
 
 **Requirements:** macOS 15 or later, Apple silicon.
 
-**Production use (₹999 incl. GST).** After payment you receive an email with a GST invoice and a download link. Verify the
-download against the `.sha256` shown on the payment page or sent on request. Licences are bought at https://zyvor.dev/buy.
+**Production use (INR 999 incl. GST in India; about US$10 excl. tax elsewhere).** After payment you receive an email with a GST invoice and a download link. Verify the
+download against the `.sha256` shown on the payment page or sent on request. Licences are bought at https://zyvor.dev/buy#nivora. Prices: INR incl. 18% GST in India; US dollars excl. tax elsewhere (VAT, GST or sales tax added where applicable). Pay online by UPI, card or netbanking; international cards work (charged in rupees); or request a US-dollar invoice by bank transfer. Custom pricing: contact sales@zyvor.dev.
 
 ## Install
 

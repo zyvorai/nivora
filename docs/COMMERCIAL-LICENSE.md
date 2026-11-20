@@ -12,7 +12,7 @@ customers or revenue is Production Use and needs the paid grant.
 
 ## The paid grant
 
-On receipt of payment for a Nivora build (₹999 including GST, about US$10 excluding GST, per build), Zyvor AI Labs Private Limited
+On receipt of payment for a Nivora build (INR 999 including GST in India, about US$10 excluding tax elsewhere, per build), Zyvor AI Labs Private Limited
 ("Licensor") grants the payer ("Licensee", an individual or a single legal entity) a perpetual, worldwide,
 non-exclusive, non-transferable licence to:
 
@@ -40,6 +40,6 @@ non-exclusive, non-transferable licence to:
 
 ## Open questions for counsel
 
-- Whether ₹999 is intended to cover large organisations or should be capped by entity size.
+- Whether INR 999 (US$10 outside India) is intended to cover large organisations or should be capped by entity size.
 - The exact line between Non-Production and Production Use for individuals running Nivora on their own Mac, and for freelancers and employees using it at work.
 - Transferability on a company sale, and what happens to prior payers if terms change.
