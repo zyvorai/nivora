@@ -12,7 +12,7 @@ customers or revenue is Production Use and needs the paid grant.
 
 ## The paid grant
 
-On receipt of payment for a Nivora build (₹999 including GST, about US$12, per build), Zyvor AI Labs Private Limited
+On receipt of payment for a Nivora build (₹999 including GST, about US$10 excluding GST, per build), Zyvor AI Labs Private Limited
 ("Licensor") grants the payer ("Licensee", an individual or a single legal entity) a perpetual, worldwide,
 non-exclusive, non-transferable licence to:
 

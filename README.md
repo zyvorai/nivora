@@ -63,7 +63,7 @@ Install steps: [docs/INSTALL.md](docs/INSTALL.md).
 
 ## Trial and licence
 
-- The app runs without a key. For a free 30-day trial key, email sales@zyvor.dev. Nothing is disabled without a key.
+- The app runs without a key. For a free 30-day trial key, email sales@zyvor.dev. The trial is soft: nothing is disabled and no data is lost when it ends.
 - **Licence:** https://zyvor.dev/buy. Earlier paid purchases keep their perpetual licence and need no key.
 - Terms: [docs/COMMERCIAL-LICENSE.md](docs/COMMERCIAL-LICENSE.md). Licensed under the [Zyvor Production License v1.0](LICENSE); free for non-production use, production use needs a paid commercial licence from Zyvor AI Labs Private Limited ([sales@zyvor.dev](mailto:sales@zyvor.dev)). See also [NOTICE](NOTICE).
 
