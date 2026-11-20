@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="color-scheme" content="light dark" />
+<title>Changelog · Nivora docs</title>
+<meta name="description" content="Release notes for Nivora, the macOS network intelligence app." />
+<link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+<link rel="canonical" href="https://zyvorai.github.io/nivora/docs/changelog.html" />
+<meta property="og:title" content="Changelog · Nivora docs" />
+<meta property="og:description" content="Release notes for Nivora, the macOS network intelligence app." />
+<meta property="og:image" content="https://zyvorai.github.io/nivora/social/og.png" />
+<script src="../theme.js"></script>
+<link rel="stylesheet" href="../assets/docs.css" />
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Zyvor Nivora">
+<meta property="og:url" content="https://zyvorai.github.io/nivora/docs/changelog.html">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Nivora: See every connection on your Mac. The app window shows demo data.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Changelog · Nivora docs">
+<meta name="twitter:description" content="Release notes for Nivora, the macOS network intelligence app.">
+<meta name="twitter:image" content="https://zyvorai.github.io/nivora/social/og.png">
+<meta name="twitter:image:alt" content="Nivora: See every connection on your Mac. The app window shows demo data.">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav">
+  <a class="brand" href="../" aria-label="Zyvor Nivora home"><img src="../favicon.svg" width="26" height="26" alt=""><span>Nivora</span></a>
+  <nav aria-label="Primary"><ul><li><a href="../">Overview</a></li><li><a href="./" aria-current="true">Docs</a></li><li><a href="../#start">Get started</a></li><li><a href="../#pricing">Pricing</a></li></ul></nav>
+  <button id="theme" class="icon-btn" type="button" aria-label="Switch to dark mode" aria-pressed="false"><svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg><svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button>
+  <a class="btn small primary" href="https://github.com/zyvorai/nivora/releases/tag/v0.5.4">Download</a>
+</header>
+<div class="docs">
+  <aside class="docs-nav" aria-label="Documentation">
+    <label class="sr" for="docsearch">Search the docs</label>
+    <input id="docsearch" type="search" placeholder="Search docs" autocomplete="off" />
+    <div id="docresults" hidden></div>
+    <h2 class="nav-h">Start</h2><ul><li><a href="install.html">Installing Nivora</a></li><li><a href="widgets.html">Widget and Shortcuts</a></li></ul><h2 class="nav-h">Reference</h2><ul><li><a href="api.html">API</a></li><li><a href="architecture.html">Architecture</a></li><li><a href="fluxvm.html">FluxVM integration</a></li><li><a href="capture.html">Packet capture</a></li><li><a href="networkextension.html">NetworkExtension integration</a></li></ul><h2 class="nav-h">Project</h2><ul><li><a href="changelog.html" aria-current="page">Changelog</a></li><li><a href="security.html">Security</a></li><li><a href="commercial-license.html">Nivora Production-Use License (draft for review by Zyvor AI Labs Private Limited and its counsel)</a></li></ul>
+  </aside>
+  <main id="main" class="prose">
+<h1 id="changelog">Changelog</h1>
+<p>Release notes for Nivora, the macOS network intelligence app.</p>
+<h2 id="054-2026-11-19">0.5.4 — 2026-11-19<a class="anchor" href="#054-2026-11-19" aria-label="Link to this section">#</a></h2>
+<ul><li>Licence: an optional licence key. <strong>Nivora &gt; Licence…</strong> shows your licence status. A free 30-day trial key is available from sales@zyvor.dev; licences are bought at https://zyvor.dev/buy. Nothing is disabled without a key. Earlier paid purchases keep their perpetual licence and need no key.</li><li>Native: a refresh interval setting (1, 2 or 5 seconds; the default stays 2 seconds), pinned applications (starred apps are listed first in Applications and in the menu bar), launch at login (macOS may ask for approval in System Settings) and diagnostics.</li><li>Requirement: Nivora now needs macOS 15 or later (it ran on macOS 14 before).</li><li>The notarized build still leaves out the content filter and the capture helper (no Apple NetworkExtension entitlement), so per-app attribution uses the collector.</li></ul>
+<h2 id="053-2026-11-06">0.5.3 — 2026-11-06<a class="anchor" href="#053-2026-11-06" aria-label="Link to this section">#</a></h2>
+<ul><li>Native: Network Map, Domains, DNS, Routes and VPN panes, a ⌘K command palette over panes, apps and actions, and two Shortcuts actions ("Top apps", "Unblock an app").</li><li>Collector: opt-in alert delivery (webhook or syslog, with a severity threshold and a cooldown), configurable history retention, a user tracker list and optional local country/ASN labels.</li><li>Command line and MCP: <code>nivoractl</code> gains JSON output, a watch mode, a version check and shell completions; the read-only MCP server adds tools for trust, privacy, egress, usage, listeners, FluxVM, profiles and the timeline.</li></ul>
+<h2 id="052-2026-10-16">0.5.2 — 2026-10-16<a class="anchor" href="#052-2026-10-16" aria-label="Link to this section">#</a></h2>
+<ul><li>Fix: "Collector unavailable" no longer appears on Macs that run FluxVM.</li><li>Fix: the app no longer flashes "Collector unavailable" while the bundled collector starts.</li><li>Native: when the content filter is not part of the build, the app says so instead of showing a raw system error.</li><li>A Developer ID signed, notarized and stapled build, without the content filter and the capture helper.</li></ul>
+<h2 id="051-2026-10-15">0.5.1 — 2026-10-15<a class="anchor" href="#051-2026-10-15" aria-label="Link to this section">#</a></h2>
+<ul><li>The release app is sealed with an ad-hoc signature so the bundle verifies as intact.</li></ul>
+<h2 id="050-2026-10-15">0.5.0 — 2026-10-15<a class="anchor" href="#050-2026-10-15" aria-label="Link to this section">#</a></h2>
+<ul><li>A "Network" widget (small and medium) and Shortcuts/Siri actions ("How is my network?", "Block an app for one hour").</li><li>Insights: a trust score per app, a privacy report card, verified process identity, situation profiles, policy dry-runs, a FluxVM sandbox egress view and a multi-Mac fleet view.</li><li>Time-travel diff and an incident narrative, an on-demand path check, "Why this flow?" evidence for each flow, and shadow rules that show what a block would match before it is enabled.</li><li>LAN change detection (new device, IP-to-MAC change, gateway change, Wi-Fi network change, DNS bypassing the VPN).</li><li>Daily per-app usage with optional budgets, project attribution and Prometheus metrics.</li><li>Fix: the bundled collector no longer outlives the app.</li></ul>
+<h2 id="030-2026-10-13">0.3.0 — 2026-10-13<a class="anchor" href="#030-2026-10-13" aria-label="Link to this section">#</a></h2>
+<ul><li>Live throughput strip and sparklines, filter bar with saved views, flow inspector, grouped Flows views and baseline compare.</li><li>Opt-in, headers-only packet capture through a separately approved helper (needs a signed, provisioned build).</li><li>Export of flows, apps, timeline and snapshots as CSV, JSON, NDJSON or zip, with optional redaction.</li><li>A shared flow filter grammar across the app, dashboard and command line.</li><li>A Time Machine pane, a command palette and keyboard shortcuts.</li></ul>
+<h2 id="020-2026-10-13">0.2.0 — 2026-10-13<a class="anchor" href="#020-2026-10-13" aria-label="Link to this section">#</a></h2>
+<ul><li>Live per-flow and per-app rates, a 0–100 network health score with explained components and a local network diagnosis.</li><li>App to interface to destination Network Map, neighbours, listening services and exposure classification.</li><li>Learning of destination behaviour with first-seen findings and Time Machine events.</li><li>FluxVM network health and endpoints, with host-flow correlation.</li></ul>
+<h2 id="010-2026-10-13">0.1.0 — 2026-10-13<a class="anchor" href="#010-2026-10-13" aria-label="Link to this section">#</a></h2>
+<ul><li>Initial release: per-app flows, DNS, routes, interfaces and VPNs, FluxVM integration, a SQLite history with a Network Time Machine, observe/allow/block rules, a local investigator, a dashboard and a native SwiftUI app.</li></ul>
+    <p class="edit"><a href="https://github.com/zyvorai/nivora/blob/main/CHANGELOG.md">Edit this page on GitHub</a></p>
+  </main>
+  <aside class="docs-toc" aria-label="On this page"><h2 class="nav-h">On this page</h2><ul><li class="l2"><a href="#054-2026-11-19">0.5.4 — 2026-11-19</a></li><li class="l2"><a href="#053-2026-11-06">0.5.3 — 2026-11-06</a></li><li class="l2"><a href="#052-2026-10-16">0.5.2 — 2026-10-16</a></li><li class="l2"><a href="#051-2026-10-15">0.5.1 — 2026-10-15</a></li><li class="l2"><a href="#050-2026-10-15">0.5.0 — 2026-10-15</a></li><li class="l2"><a href="#030-2026-10-13">0.3.0 — 2026-10-13</a></li><li class="l2"><a href="#020-2026-10-13">0.2.0 — 2026-10-13</a></li><li class="l2"><a href="#010-2026-10-13">0.1.0 — 2026-10-13</a></li></ul></aside>
+</div>
+<footer class="footer">
+  <p><strong>Zyvor Nivora</strong> · The Nivora source code is private.</p>
+  <p class="links"><a href="../docs/">Docs</a><a href="https://github.com/zyvorai/nivora/blob/main/CHANGELOG.md">Changelog</a><a href="../feed.xml">Release feed</a><a href="https://github.com/zyvorai/nivora">GitHub</a><a href="https://github.com/zyvorai/nivora/blob/main/LICENSE">LICENSE</a><a href="https://github.com/zyvorai/nivora/blob/main/SECURITY.md">SECURITY</a><a href="mailto:sales@zyvor.dev">sales@zyvor.dev</a></p>
+  <p>© 2026 Zyvor AI Labs Private Limited · <a href="https://zyvor.dev">zyvor.dev</a> · Zyvor Production License v1.0</p>
+</footer>
+<script src="../docs.js"></script>
+</body>
+</html>
