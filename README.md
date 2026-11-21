@@ -64,7 +64,7 @@ Install steps: [docs/INSTALL.md](docs/INSTALL.md).
 ## Trial and licence
 
 - The app runs without a key. For a free 30-day trial key, email sales@zyvor.dev. No data is lost when it ends; a commercial license is required to keep using it.
-- **Licence:** INR 999 incl. 18% GST in India (about US$10 excl. tax outside India), one-time: https://zyvor.dev/buy#nivora. Free 30-day trial above. Prices: INR incl. 18% GST in India; US dollars excl. tax elsewhere (VAT, GST or sales tax added where applicable). Pay online by UPI, card or netbanking; international cards work (charged in rupees); or request a US-dollar invoice by bank transfer. Custom pricing: contact sales@zyvor.dev. Earlier paid purchases keep their perpetual licence and need no key.
+- **Licence:** INR 999 incl. 18% GST in India (about US$10 excl. tax outside India), one-time: https://zyvor.dev/buy#nivora. Free 30-day trial above. Prices: INR incl. 18% GST in India; US dollars excl. tax elsewhere (VAT, GST or sales tax added where applicable). Pay online by UPI, card or netbanking; international cards work (charged in rupees). Orders of USD 5,000 or more and quotes are invoiced in USD through Skydo. Custom pricing: contact sales@zyvor.dev. Earlier paid purchases keep their perpetual licence and need no key.
 - Terms: [docs/COMMERCIAL-LICENSE.md](docs/COMMERCIAL-LICENSE.md). Licensed under the [Zyvor Production License v1.0](LICENSE); free for non-production use, production use needs a paid commercial licence from Zyvor AI Labs Private Limited ([sales@zyvor.dev](mailto:sales@zyvor.dev)). See also [NOTICE](NOTICE).
 
 ## Documentation
