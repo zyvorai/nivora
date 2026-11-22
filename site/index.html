@@ -28,8 +28,9 @@
 <meta name="twitter:image" content="https://zyvorai.github.io/nivora/social/og.png">
 <meta name="twitter:image:alt" content="Nivora: See every connection on your Mac. The app window shows demo data.">
 <link rel="stylesheet" href="assets/landing.css">
+<link rel="stylesheet" href="assets/zyvor-buyer.css">
 <style>:root{--accent-btn:#0071e3;--accent-ink:#0071e3;--accent-grad-a:#0071e3;--accent-grad-b:#32ade6}</style>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Zyvor Nivora","applicationCategory":"DeveloperApplication","operatingSystem":"macOS","softwareVersion":"0.5.4","downloadUrl":"https://github.com/zyvorai/nivora/releases/tag/v0.5.4","url":"https://zyvorai.github.io/nivora/","description":"Mac-native application and network intelligence: which app talks to what, over which interface. Flows, DNS, routes, VPNs and FluxVM. Local-first and observe-first.","image":"https://zyvorai.github.io/nivora/social/og.png","publisher":{"@type":"Organization","name":"Zyvor AI Labs Private Limited","url":"https://zyvor.dev"},"offers":[{"@type":"Offer","name":"Nivora (India, incl. 18% GST)","price":"999","priceCurrency":"INR","url":"https://zyvor.dev/buy#nivora"},{"@type":"Offer","name":"Nivora (outside India, excl. tax)","price":"10","priceCurrency":"USD","url":"https://zyvor.dev/buy#nivora"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Zyvor Nivora","applicationCategory":"DeveloperApplication","operatingSystem":"macOS","softwareVersion":"0.5.4","downloadUrl":"https://github.com/zyvorai/nivora/releases/tag/v0.5.4","url":"https://zyvorai.github.io/nivora/","description":"Mac-native application and network intelligence: which app talks to what, over which interface. Flows, DNS, routes, VPNs and FluxVM. Local-first and observe-first.","image":"https://zyvorai.github.io/nivora/social/og.png","publisher":{"@type":"Organization","name":"Zyvor AI Labs Private Limited","url":"https://zyvor.dev"}}</script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -45,9 +46,22 @@
   <h1 id="top">Nivora</h1>
   <p class="tagline">See every connection on your Mac.</p>
   <p class="promise"><strong>Which app is talking to what, over which interface.</strong> Per-app flows, DNS, routes, VPNs, listeners and FluxVM workloads in a native SwiftUI app. Local-first and observe-first: no payloads, no uploads, nothing blocked unless you say so.</p>
-  <p class="cta"><a class="btn primary" href="https://github.com/zyvorai/nivora/releases/tag/v0.5.4">Download the 30-day trial</a><a class="textlink" href="#features">Learn more</a></p>
-  <p class="fine">macOS 15 or later · Apple silicon · notarized · The app runs without a key. For a free 30-day trial key, email sales@zyvor.dev. The trial is soft: nothing is disabled and no data is lost.</p>
+  <div class="buyer" role="group" aria-label="Get Nivora">
+    <div class="actions">
+      <a class="btn primary" href="https://github.com/zyvorai/nivora/releases/download/v0.5.4/Nivora-0.5.4.dmg">Download Nivora 0.5.4</a>
+      <a class="btn ghost" href="https://zyvor.dev/contact?intent=trial&amp;product=nivora" rel="noopener">Ask for a 30-day trial</a>
+      <a class="btn ghost" href="https://zyvor.dev/buy" rel="noopener">Buy a license</a>
+    </div>
+    <p class="sub">Nivora-0.5.4.dmg · <a href="https://zyvor.dev/pricing" rel="noopener">See current prices</a> · <a href="https://github.com/zyvorai/nivora/releases/tag/v0.5.4">All downloads</a></p>
+    <p class="trust"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.2 8-8 9-4.8-1-8-4.5-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg><span><strong>Verified by Apple:</strong> Developer ID signed and notarized. This applies to the 0.5.4 DMG. The notarized build has no content filter and no capture helper, because both need an Apple entitlement Zyvor does not have.</span></p>
+    <ul class="reqs"><li>Requires macOS 15 or later on Apple silicon.</li></ul>
+  </div>
   <figure class="shot hero-shot"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/hero-flows-dark-1200.webp 1200w, assets/img/hero-flows-dark-1800.webp 1800w" sizes="(min-width:1080px) 1040px, 100vw"><img src="assets/img/hero-flows-light-1200.webp" srcset="assets/img/hero-flows-light-1200.webp 1200w, assets/img/hero-flows-light-1800.webp 1800w" sizes="(min-width:1080px) 1040px, 100vw" width="1800" height="1159" alt="Nivora Flows pane: every connection with its app, protocol, remote endpoint, state, interface and round-trip time, above a live throughput chart." fetchpriority="high" decoding="async"></picture><figcaption>The Flows pane. Demo data on simulated telemetry, not a real Mac.</figcaption></figure>
+</section>
+
+<section class="outcomes" aria-labelledby="outcomes-h">
+  <h2 id="outcomes-h">See every connection on your Mac.</h2>
+  <ul class="tiles"><li class="tile"><h3>See who is talking</h3><p>Traffic is grouped by app, with live rates and destinations.</p></li><li class="tile"><h3>Every connection, with its interface</h3><p>Protocol, remote, state, interface and round-trip time for each flow.</p></li><li class="tile"><h3>Take the evidence with you</h3><p>Export CSV, JSON or NDJSON, optionally redacted of private IPs, MACs, SSID and hostname. Never packet payloads.</p></li></ul>
 </section>
 
 <section class="band" aria-label="Overview">
@@ -92,13 +106,11 @@
   <p class="cta"><a class="btn primary" href="https://github.com/zyvorai/nivora/releases/download/v0.5.4/Nivora-0.5.4.dmg">Download Nivora-0.5.4.dmg</a><a class="textlink" href="https://github.com/zyvorai/nivora/releases/tag/v0.5.4">Release page</a><a class="textlink" href="docs/install.html">Install guide</a></p>
 </section>
 
-<section class="pricing" id="pricing" aria-labelledby="pricing-h">
-  <div class="inner">
-  <h2 id="pricing-h" style="text-align:left">Licence and pricing.</h2>
-  <p class="lead">Nivora is early. To run it, including business and commercial use, buy a licence: <b>INR 999 incl. 18% GST in India (about US$10 excl. tax outside India)</b>, one-time. Prices: INR incl. 18% GST in India; US dollars excl. tax elsewhere (VAT, GST or sales tax added where applicable). Pay online by UPI, card or netbanking; international cards work (charged in rupees); or request a US-dollar invoice by bank transfer. Custom pricing: contact sales@zyvor.dev. Need something customised, a company invoice or multi-entity terms? Write to sales@zyvor.dev.</p>
-<div class="card buy"><h3>Signed &amp; notarized</h3><p>Signed with our Apple Developer ID. Notarized by Apple; macOS shows its standard first-open confirmation for apps downloaded from the internet. It uses the built-in collector; it does <b>not</b> include the content filter or the capture helper, which need Apple entitlements we do not have.</p><p><b>INR 999</b> incl. GST (about <b>US$10</b> excl. tax outside India) &middot; one-time business-use licence</p><p class="cta"><a class="btn primary" href="https://rzp.io/rzp/ZlsmLxuC">Buy the signed app</a><a class="btn ghost" href="https://zyvor.dev/buy#nivora" rel="noopener">Buy on zyvor.dev</a><a class="btn ghost" href="mailto:sales@zyvor.dev?subject=Nivora%2030-day%20trial%20key">Start 30-day trial</a></p><img class="qr" src="pay-nivoraSigned.svg" alt="QR code: scan to buy the signed app" width="96" height="96" loading="lazy"></div>
-<p class="fine">A purchase licenses business and commercial use of that version and later ones on machines you own or operate. It does not cover redistribution or resale. Several companies or a larger rollout: <a href="mailto:sales@zyvor.dev">sales@zyvor.dev</a>. <a href="https://github.com/zyvorai/nivora/blob/main/docs/COMMERCIAL-LICENSE.md">Licence terms</a>. After payment you get a GST invoice and a download link by email. Earlier paid purchases keep their perpetual licence and need no key.</p>
-  </div>
+<section class="buy-pointer" id="pricing" aria-labelledby="pricing-h">
+  <h2 id="pricing-h">Prices and licenses</h2>
+  <p>Current prices, in your currency where available, are on zyvor.dev. You can evaluate for 30 days before you decide.</p>
+  <p class="cta"><a class="btn primary" href="https://zyvor.dev/buy" rel="noopener">Buy a license</a><a class="btn ghost" href="https://zyvor.dev/contact?intent=trial&amp;product=nivora" rel="noopener">Ask for a 30-day trial</a><a class="textlink" href="https://zyvor.dev/pricing" rel="noopener">See current prices</a></p>
+  <p class="fine"><a href="https://github.com/zyvorai/nivora/blob/main/docs/COMMERCIAL-LICENSE.md">Licence terms</a> · Several Macs or a larger rollout: <a href="https://zyvor.dev/contact?intent=sales&amp;product=nivora" rel="noopener">contact sales</a>.</p>
 </section>
 
 <section class="faq" id="faq" aria-labelledby="faq-h">
@@ -113,7 +125,7 @@
 </main>
 <footer class="footer">
   <p><strong>Zyvor Nivora</strong> · The Nivora source code is private.</p>
-  <p class="links"><a href="docs/">Docs</a><a href="https://github.com/zyvorai/nivora/blob/main/CHANGELOG.md">Changelog</a><a href="feed.xml">Release feed</a><a href="https://github.com/zyvorai/nivora">GitHub</a><a href="https://github.com/zyvorai/nivora/blob/main/LICENSE">LICENSE</a><a href="https://github.com/zyvorai/nivora/blob/main/SECURITY.md">SECURITY</a><a href="mailto:sales@zyvor.dev">sales@zyvor.dev</a></p>
+  <p class="links"><a href="https://zyvor.dev/contact">Support</a><a href="docs/">Docs</a><a href="https://github.com/zyvorai/nivora/blob/main/CHANGELOG.md">Changelog</a><a href="feed.xml">Release feed</a><a href="https://github.com/zyvorai/nivora">GitHub</a><a href="https://github.com/zyvorai/nivora/blob/main/LICENSE">LICENSE</a><a href="https://github.com/zyvorai/nivora/blob/main/SECURITY.md">SECURITY</a><a href="mailto:sales@zyvor.dev">sales@zyvor.dev</a></p>
   <p>© 2026 Zyvor AI Labs Private Limited · <a href="https://zyvor.dev">zyvor.dev</a> · Zyvor Production License v1.0</p>
 </footer>
 </body>
