@@ -16,7 +16,7 @@ Closing the window keeps Nivora in the menu bar; **Quit** is in the menu-bar men
 
 ## Trial key and licence
 
-The app runs without a key. For a free 30-day trial key, email sales@zyvor.dev. Paste the key under **Nivora > Licence…**; the sidebar then shows your licence
+The app runs without a key. For a 30-day trial key, email sales@zyvor.dev. Paste the key under **Nivora > Licence…**; the sidebar then shows your licence
 status. Nothing is disabled without a key. To buy a licence, go to https://zyvor.dev/buy. Earlier paid purchases keep their
 perpetual licence and need no key.
 

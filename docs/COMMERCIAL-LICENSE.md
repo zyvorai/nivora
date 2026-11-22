@@ -1,14 +1,13 @@
 # Nivora Production-Use License (draft for review by Zyvor AI Labs Private Limited and its counsel)
 
-Nivora is source-available under the Zyvor Production License v1.0 (`LICENSE`). Non-production use is free. Under
+Nivora is source-available under the Zyvor Production Licence v2.0 (`LICENSE`). A 30-day trial is available on request from sales@zyvor.dev. Under
 section 4 of that licence, Production Use needs a separate written commercial license from Zyvor AI Labs Private
 Limited. This page describes the one-time paid grant that is that commercial license for Nivora, covering
 **production use, including business and commercial use**.
 
-## Free use
+## Trial and other use
 
-Anyone may use Nivora for Non-Production Use (as defined in `LICENSE`) without paying: download the app from the GitHub release and use it for non-production purposes. Use that supports live business operations, employees,
-customers or revenue is Production Use and needs the paid grant.
+A 30-day trial is available on request from sales@zyvor.dev (a paid evaluation Order at no charge). Production and any other use needs a paid Order under the Zyvor Production Licence v2.0.
 
 ## The paid grant
 
@@ -17,7 +16,7 @@ On receipt of payment for a Nivora build (INR 999 including GST in India, about 
 non-exclusive, non-transferable licence to:
 
 1. use Nivora for Production Use, including business and commercial purposes, on machines the Licensee owns or operates;
-2. do so for the version bought and every later version released by Licensor under the Zyvor Production License v1.0 or a successor Zyvor licence;
+2. do so for the version bought and every later version released by Licensor under the Zyvor Production Licence v2.0 or a successor Zyvor licence;
 3. modify the source for the Licensee's own use.
 
 ## What it does not cover
@@ -32,8 +31,8 @@ non-exclusive, non-transferable licence to:
 ## Proof and terms
 
 - The invoice or payment receipt is the proof of a paid grant. Earlier paid grants are perpetual and need no key.
-- From 0.5.4 the app can read an optional licence key under **Nivora > Licence…**, for example the free 30-day trial key from sales@zyvor.dev; licences are obtained at https://zyvor.dev/buy. Nivora keeps working in every state: a missing, trial or expired key never disables a feature, and nothing is sent to us.
-- Provided as is, no warranty, under the same disclaimers as the Zyvor Production License v1.0. Payments are non-refundable except as
+- From 0.5.4 the app can read an optional licence key under **Nivora > Licence…**, for example the 30-day trial key from sales@zyvor.dev; licences are obtained at https://zyvor.dev/buy. Nivora keeps working in every state: a missing, trial or expired key never disables a feature, and nothing is sent to us.
+- Provided as is, no warranty, under the same disclaimers as the Zyvor Production Licence v2.0. Payments are non-refundable except as
   required by law.
 - Questions, receipts, new download links, and larger or multi-entity licences: sales@zyvor.dev.
 - Governing law and venue: *[Licensor and counsel to fill in]*. Tax and GST treatment: *[Licensor and counsel to fill in]*.
