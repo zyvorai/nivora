@@ -23,7 +23,7 @@ Which app is talking to what, over which interface. Local-first and observe-firs
 | | |
 | --- | --- |
 | **Get it** | [Nivora 0.5.4](https://github.com/zyvorai/nivora/releases/tag/v0.5.4): `Nivora-0.5.4.dmg` and its `.sha256` checksum |
-| **Trial key** | The app runs without a key. For a free 30-day trial key, email **sales@zyvor.dev**. Enter the key under **Nivora > Licence…** |
+| **Trial key** | The app runs without a key. For a 30-day trial key, email **sales@zyvor.dev**. Enter the key under **Nivora > Licence…** |
 | **Requirements** | macOS 15 or later, Apple silicon |
 | **Notarized** | Signed with our Apple Developer ID. Notarized by Apple; macOS shows its standard first-open confirmation for apps downloaded from the internet |
 
@@ -63,9 +63,9 @@ Install steps: [docs/INSTALL.md](docs/INSTALL.md).
 
 ## Trial and licence
 
-- The app runs without a key. For a free 30-day trial key, email sales@zyvor.dev. No data is lost when it ends; a commercial license is required to keep using it.
-- **Licence:** INR 999 incl. 18% GST in India (about US$10 excl. tax outside India), one-time: https://zyvor.dev/buy#nivora. Free 30-day trial above. Prices: INR incl. 18% GST in India; US dollars excl. tax elsewhere (VAT, GST or sales tax added where applicable). Pay online by UPI, card or netbanking; international cards work (charged in rupees). Orders of USD 5,000 or more and quotes are invoiced in USD through Skydo. Custom pricing: contact sales@zyvor.dev. Earlier paid purchases keep their perpetual licence and need no key.
-- Terms: [docs/COMMERCIAL-LICENSE.md](docs/COMMERCIAL-LICENSE.md). Licensed under the [Zyvor Production License v1.0](LICENSE); free for non-production use, production use needs a paid commercial licence from Zyvor AI Labs Private Limited ([sales@zyvor.dev](mailto:sales@zyvor.dev)). See also [NOTICE](NOTICE).
+- The app runs without a key. For a 30-day trial key, email sales@zyvor.dev. No data is lost when it ends; a commercial license is required to keep using it.
+- **Licence:** INR 999 incl. 18% GST in India (about US$10 excl. tax outside India), one-time: https://zyvor.dev/buy#nivora. 30-day trial above. Prices: INR incl. 18% GST in India; US dollars excl. tax elsewhere (VAT, GST or sales tax added where applicable). Pay online by UPI, card or netbanking; international cards work (charged in rupees). Orders of USD 5,000 or more and quotes are invoiced in USD through Skydo. Custom pricing: contact sales@zyvor.dev. Earlier paid purchases keep their perpetual licence and need no key.
+- Terms: [docs/COMMERCIAL-LICENSE.md](docs/COMMERCIAL-LICENSE.md). Licensed under the [Zyvor Production Licence v2.0](LICENSE). A 30-day trial is available on request from sales@zyvor.dev (a paid evaluation Order at no charge); production and any other use needs a paid Order. See also [NOTICE](NOTICE).
 
 ## Documentation
 
